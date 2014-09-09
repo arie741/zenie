@@ -1,0 +1,20 @@
+(ns zenie.dbase
+  (:require [cemerick.url :as curl]
+            [questdb.core :refer :all]))
+
+
+(def quest "databasename")
+
+
+(def b1 {:title "Apa sih yang membuat kita bisa percaya diri?"
+         :creator "Glenn Ardi"
+         :content "GAK PEDE? YUK KITA IDENTIFIKASI DULU MASALAHNYA"})
+
+(def b2 {:title "Manusia Baru Make 10% Otaknya, gimana kalo 100%?"
+         :creator "Fanny Rofalina"
+         :content "Lo tau ga sih kalo premis “rata-rata manusia hanya menggunakan 10% dari kapasitas otaknya” itu adalah salah satu miskonsepsi terbesar dalam Biologi, khususnya tentang otak."})
+
+(def b3 {:title "Pembahasan Soal SBMPTN 2014"
+         :creator "Wisnu OPS"
+         :content "Artikel zenius kali ini sifatnya sakral banget. Artinya, wajib hukumnya buat di-boo."})
+           
